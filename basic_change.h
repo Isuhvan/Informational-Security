@@ -1,10 +1,8 @@
 #pragma once
 
-void code(char word[], char cword[]) {
-	int lenght = strlen(word);
-	cout << lenght << endl;;
-	for (int i = 0; i < lenght; i++)
+void code(char in_word[], char out_word[]) {
+	for (int i = 0; i < strlen(in_word); i++)
 	{
-		cword[i] = word[i];
+		out_word[i] = in_word[i];
 	}
 }

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="read_write.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic_change.h" />
